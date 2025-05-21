@@ -25,7 +25,7 @@ Installation
 
 1) cd /tmp
 2) download the driver
-wget https://github.com/kiteswinoujscie/Sense_Cap_S700/archive/Sense_Cap_S700-main.zip
+wget https://github.com/kiteswinoujscie/Sense_Cap_S700/archive/refs/heads/main.zip
 2) unzip Sense_Cap_S700-main.zip
 3) cd /Sense_Cap_S700-main
 4) cp sensecap.py /usr/share/weewx/weewx/drivers sensecap.py

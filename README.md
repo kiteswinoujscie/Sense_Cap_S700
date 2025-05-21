@@ -23,18 +23,22 @@ sudo pip install minimalmodbus
 ===============================================================================
 Installation
 
-1) download the driver
+1) cd /tmp
+2) download the driver
+wget https://github.com/kiteswinoujscie/Sense_Cap_S700/archive/Sense_Cap_S700-main.zip
+2) unzip Sense_Cap_S700-main.zip
+3) cd /Sense_Cap_S700-main
+4) cp sensecap.py /usr/share/weewx/weewx/drivers sensecap.py
+6) edit file weewx.conf and add:
+   [Station]
+       station_type = SenseCAP
 
-wget -O weewx-cm1.zip https://github.com/kiteswinoujscie/Sense_Cap_S700/archive/Sense_Cap_S700-main.zip
+    [SenseCAP]
+    driver = weewx.drivers.sensecap
+    device = /dev/ttyUSB0
+    baudrate = 9600
+    timeout = 2
 
-2) install the driver
-
-wee_extension --install Sense_Cap_S700-main.zip
-
-3) configure the driver
-
-wee_config --reconfigure
-
-4) start weewx
+7) start weewx
 
 sudo /etc/init.d/weewx start

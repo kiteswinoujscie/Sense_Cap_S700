@@ -25,11 +25,11 @@ Installation
 
 1) download the driver
 
-wget -O weewx-cm1.zip https://github.com/kiteswinoujscie/Sense_Cap_S700/archive/master.zip
+wget -O weewx-cm1.zip https://github.com/kiteswinoujscie/Sense_Cap_S700/archive/Sense_Cap_S700-main.zip
 
 2) install the driver
 
-wee_extension --install weewx-cm1.zip
+wee_extension --install Sense_Cap_S700-main.zip
 
 3) configure the driver
 

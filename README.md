@@ -5,7 +5,7 @@ Copyright 2025 Rafał Suchecki
 Distributed under terms of the GPLv3
 
 This is a driver for weewx that collects data from Sense Cap weather stations
-using the Sense Cap S700 control module.
+using the Sense Cap S700 control module via RS485
 
 
 ===============================================================================

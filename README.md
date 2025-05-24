@@ -31,13 +31,13 @@ wget https://github.com/kiteswinoujscie/Sense_Cap_S700/archive/refs/heads/main.z
 4) cp sensecap.py /usr/share/weewx/weewx/drivers sensecap.py
 6) edit file weewx.conf and add:<br>
 
-    [Station]<br?
-       station_type = SenseCAP
-    [SenseCAP]
-    driver = weewx.drivers.sensecap
-    device = /dev/ttyUSB0
-    baudrate = 9600
-    timeout = 2
+    <br>[Station]<br/>
+        <br>station_type = SenseCAP<br/>
+    <br> [SenseCAP]<br/>
+     <br>driver = weewx.drivers.sensecap<br/>
+     <br>device = /dev/ttyUSB0<br/>
+     <br>baudrate = 9600<br/>
+     <br>timeout = 2<br/>
 
 8) start weewx
 

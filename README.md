@@ -29,9 +29,9 @@ wget https://github.com/kiteswinoujscie/Sense_Cap_S700/archive/refs/heads/main.z
 2) unzip Sense_Cap_S700-main.zip
 3) cd /Sense_Cap_S700-main
 4) cp sensecap.py /usr/share/weewx/weewx/drivers sensecap.py
-6) edit file weewx.conf and add:
+6) edit file weewx.conf and add:<br>
 
-    [Station]
+    [Station]<br?
        station_type = SenseCAP
     [SenseCAP]
     driver = weewx.drivers.sensecap

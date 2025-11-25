@@ -28,11 +28,11 @@ Installation
 wget https://github.com/kiteswinoujscie/Sense_Cap_S700/archive/refs/heads/main.zip
 2) unzip Sense_Cap_S700-main.zip
 3) cd /Sense_Cap_S700-main
-4) cp sensecap.py /usr/share/weewx/weewx/drivers sensecap.py
+4) cp sensecap_s700.py /usr/share/weewx/weewx/drivers sensecap_s700.py
 6) edit file weewx.conf and add:<br>
 
     <br>[Station]<br/>
-        <br>station_type = SenseCAP<br/>
+        <br>station_type = SenseCAPS700<br/>
            <br> model = SenseCAP S700<br/>
 
           <br>[SenseCAPS700]<br/>

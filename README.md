@@ -31,11 +31,11 @@ wget https://github.com/kiteswinoujscie/Sense_Cap_S700/archive/refs/heads/main.z
 4) cp sensecap_s700.py /usr/share/weewx/weewx/drivers sensecap_s700.py
 6) edit file weewx.conf and add:<br>
 
-    <br>[Station]<br/>
-        <br>station_type = SenseCAPS700<br/>
-           <br> model = SenseCAP S700<br/>
+<br>[Station]<br/>
+   <br>station_type = SenseCAPS700<br/>
+   <br> model = SenseCAP S700<br/>
 
-          <br>[SenseCAPS700]<br/>
+<br>[SenseCAPS700]<br/>
    <br> driver = weewx.drivers.sensecap_s700<br/>
     <br>device = /dev/ttyUSB0<br/>
     <br>baudrate = 9600<br/>

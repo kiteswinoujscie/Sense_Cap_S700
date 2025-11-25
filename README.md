@@ -33,11 +33,14 @@ wget https://github.com/kiteswinoujscie/Sense_Cap_S700/archive/refs/heads/main.z
 
     <br>[Station]<br/>
         <br>station_type = SenseCAP<br/>
-    <br> [SenseCAP]<br/>
-     <br>driver = weewx.drivers.sensecap<br/>
-     <br>device = /dev/ttyUSB0<br/>
-     <br>baudrate = 9600<br/>
-     <br>timeout = 2<br/>
+           <br> model = SenseCAP S700<br/>
+
+          <br>[SenseCAPS700]<br/>
+   <br> driver = weewx.drivers.sensecap_s700<br/>
+    <br>device = /dev/ttyUSB0<br/>
+    <br>baudrate = 9600<br/>
+    <br>timeout = 2<br/>
+
 
 8) start weewx
 
